@@ -1,0 +1,155 @@
+.header {
+    background-color: #fceac3;
+    display:flex;
+    justify-content:space-between;
+    
+   
+}
+
+.projects{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+h2,p{
+    display: block;
+    margin-bottom: 1%;
+    font-size: 30px;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 5%;
+}
+.footer{
+    display:flex;
+    justify-content:flex-end;
+}
+h1{
+    color: #000000eb;
+    
+    font-size: 30px;
+    margin-left:30px ;
+    font-family: 'Apercu-Medium';
+    
+}
+.menu{
+    color  : white;
+    margin-top:25px;
+    margin-right:30px ;
+    
+}
+.menu a{
+    padding:10px ;  
+
+}
+a:link{
+    color:#222da5;
+}
+a:visited{
+    color:  #000000;
+}
+body{
+    background-color: #ffffff;
+}
+.items p{
+
+    font-weight: bold;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-100%);
+    opacity:0;
+    font-size: 20px;
+}
+.items:hover p{
+    opacity:1;
+
+}
+.items:hover img{
+    opacity:0.3;
+}
+
+.items{
+    position:relative;
+    
+}
+.section{
+    padding:10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    
+}
+
+.transperancy{
+    padding:10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    margin-bottom: 100;
+    
+}
+.pure-transparency-heading-small {
+    display: block;
+    margin-bottom: 1%;
+    font-size: 13px;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.a-medium {
+    font-family: 'Apercu-Medium';
+}
+.pure-transparency-heading {
+    text-align: center;
+    display: block;
+    margin-bottom: 3%;
+    font-size: 38px;
+    color: #000000;
+}
+.pure-transparency-description {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 8%;}
+
+    .pure-science-heading-small {
+        display: block;
+        margin-bottom: 3%;
+        font-size: 13px;
+        color: #000000;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        box-sizing: border-box;
+        text-align: center;
+}
+    
+.pure-science-heading {
+    display: block;
+    margin-bottom: 0%;
+    font-size: 38px;
+    color: #000000;
+    text-align: center;
+}
+
+.pure-science-description {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+.footprint{
+    padding:10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
